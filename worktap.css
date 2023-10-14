@@ -1,0 +1,90 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: sans-serif;
+ }
+ .container{
+    width: 1100px;
+    margin: 0 auto;
+}
+ a{
+     text-decoration: none;
+ }
+ button{
+     border: none;
+ }
+#works{
+padding: 70px;
+}
+ .header-button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 700px;
+    padding: 20px;
+    gap: 2pc;
+}
+.header-button button{
+    color: #000;
+ text-align: right;
+ font-family: Heebo;
+ font-size: 20px;
+ font-weight: 500;
+ background: transparent;
+ }
+ .header-button span{
+    color: var(--Primary, #FF6464);
+    text-align: right;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+ }
+ .works h1 {
+    color: var(--Dark-Color, #101010        );
+    font-family: Heebo;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.work{
+    display: flex;
+    align-items: center;
+gap: 30px;
+margin: 15px 0;
+padding: 10px;
+}
+.work-text h3{
+    padding: 20px 0;
+
+}
+.work-text p{
+    margin-bottom: 25px;
+}
+.works{
+    margin: 20px 0;
+}
+.logo-icons{
+    display: flex;
+    gap: 2pc;
+    margin-top: 150px;
+    justify-content: center;
+}
+.logo-titles{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;   
+}
+.work-text h1{
+    color: var(--Dark-Color, #101010);
+font-family: Heebo;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
